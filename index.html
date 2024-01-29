@@ -35,11 +35,53 @@
               </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn bg-[#B83AE3] text-white border-none">Contact</a>
+              <!-- <a class="btn bg-[#B83AE3] text-white border-none">Contact</a> -->
+               <!-- The button to open modal -->
+              <label for="my_modal_7" class="btn bg-[#B83AE3] text-white border-none">Log In</label>
+
+              <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+              <div class="modal" role="dialog">
+                <div class="modal-box">
+                  <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-[#190A30]">
+                    <form class="card-body">
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text text-white">Email</span>
+                        </label>
+                        <input type="email" placeholder="email" class="input input-bordered text-black" required />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text text-white">Password</span>
+                        </label>
+                        <input type="password" placeholder="password" class="input input-bordered text-black" required />
+                        <label class="label">
+                          <a href="#" class="label-text-alt link link-hover text-white">Forgot password?</a>
+                        </label>
+                      </div>
+                      <div class="form-control mt-6">
+                        <button class="btn bg-[#B83AE3] border-none text-white">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <label class="modal-backdrop" for="my_modal_7">Close</label>
+              </div>
             </div>
           </div>
     </header>
     <main class="container mx-auto">
+        <section class="mt-20 mx-5">
+          <div class="hero bg-[#190A30] text-white rounded-lg border-4 border-[#8E358F]">
+            <div class="hero-content text-center">
+              <div class="max-w-md">
+                <h1 class="text-5xl font-bold">Hello there!</h1>
+                <p class="py-6">There are so many web developers in this website.<br>If you can hire any one so choose them.</p>
+                <button class="btn bg-[#B83AE3] text-white border-none">Get Started</button>
+              </div>
+            </div>
+            </div>
+        </section>
         <div class="flex flex-col lg:flex-row gap-6 mt-20 mx-5">
           <div class="flex-1 bg-no-repeat bg-cover bg-[#190A30] w-auto h-auto lg:w-[573px] lg:h-[420px] rounded-2xl text-white pb-10 border-4 border-[#8E358F]">
               <div class="card-body">
